@@ -3,9 +3,7 @@ let chatwrap = document.getElementById("chatwrap");
 let video = document.querySelector(".video-stream");
 let hideVidBtn = document.getElementById("hide-player-btn");
 let pageWidth = document.documentElement.clientWidth;
-console.log(pageWidth);
 let tabsWidth = tabs.offsetWidth;
-console.log(tabsWidth);
 
 nav.style.display = "none";
 chatwrap.style.cssText = "height: calc(100%) !important;";
@@ -20,9 +18,9 @@ $(document).ready(function () {
   );
   footer.append(div);
 
-  rndWall1.onclick = () => sunWall();
-  rndWall2.onclick = () => lampWall();
-  rndWall3.onclick = () => moonWall();
+//   rndWall1.onclick = () => sunWall();
+//   rndWall2.onclick = () => lampWall();
+//   rndWall3.onclick = () => moonWall();
 
   function sunWall() {
     let arr = [
