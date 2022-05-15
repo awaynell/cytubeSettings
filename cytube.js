@@ -18,9 +18,9 @@ $(document).ready(function () {
   );
   footer.append(div);
 
-//   rndWall1.onclick = () => sunWall();
-//   rndWall2.onclick = () => lampWall();
-//   rndWall3.onclick = () => moonWall();
+  rndWall1.onclick = () => sunWall();
+  rndWall2.onclick = () => lampWall();
+  rndWall3.onclick = () => moonWall();
 
   function sunWall() {
     let arr = [
